@@ -6,7 +6,9 @@ onready var SoundEnbut2 = get_node("/root/Spatial/Terrain de CeciFoot/Enbut2/Aud
 func _on_Area_body_entered(body):
 	if body.is_in_group("Enbut1"):
 		print("But 1")
-		SoundEnbut1.play(0)
+		if not SoundEnbut1.is_playing():
+			SoundEnbut1.play(0)
 	if body.is_in_group("Enbut2"):
 		print("But 2")
-		SoundEnbut2.play(0)
+		if not SoundEnbut2.is_playing():
+			SoundEnbut2.play(0)
