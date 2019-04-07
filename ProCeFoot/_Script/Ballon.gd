@@ -1,0 +1,12 @@
+extends RigidBody
+
+onready var SoundEnbut1 = get_node("/root/Spatial/Terrain de CeciFoot/Enbut1/AudioStreamPlayer")
+onready var SoundEnbut2 = get_node("/root/Spatial/Terrain de CeciFoot/Enbut2/AudioStreamPlayer")
+
+func _on_Area_body_entered(body):
+	if body.is_in_group("Enbut1"):
+		print("But 1")
+		SoundEnbut1.play(0)
+	if body.is_in_group("Enbut2"):
+		print("But 2")
+		SoundEnbut2.play(0)

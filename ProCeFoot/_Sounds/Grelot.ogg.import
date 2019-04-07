@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Grelot.ogg-c6873451807221949e27658576e2c694.oggstr"
+
+[deps]
+
+source_file="res://_Sounds/Grelot.ogg"
+dest_files=[ "res://.import/Grelot.ogg-c6873451807221949e27658576e2c694.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
