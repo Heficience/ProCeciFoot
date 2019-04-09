@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Jai_lisa.ogg-8b8c42dad12eb5618e5eab07e1b144b2.oggstr"
+
+[deps]
+
+source_file="res://_Sounds/Jai_lisa.ogg"
+dest_files=[ "res://.import/Jai_lisa.ogg-8b8c42dad12eb5618e5eab07e1b144b2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

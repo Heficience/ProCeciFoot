@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Jai_jacky.ogg-5fff6d2784e14e1305839480d4c50874.oggstr"
+
+[deps]
+
+source_file="res://_Sounds/Jai_jacky.ogg"
+dest_files=[ "res://.import/Jai_jacky.ogg-5fff6d2784e14e1305839480d4c50874.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

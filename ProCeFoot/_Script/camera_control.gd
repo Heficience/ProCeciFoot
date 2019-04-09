@@ -19,8 +19,11 @@ var MAX_SPEED = 15
 var MOUSE_SENSITIVITY = .5
 
 var tir = false
+var tirePossible = false
+var Ballon = null
 
 onready var SoundBallon = get_node("/root/Spatial/Ballon/AudioStreamPlayer3D")
+onready var Jai = $"AudioStreamPlayer3D-1"
 
 func _ready():
 	
@@ -30,8 +33,16 @@ func _ready():
 
 
 func _physics_process(delta):
-    process_input()
-    process_movement(delta)
+	process_input()
+	process_movement(delta)
+	if tirePossible && tir:
+		print("TireJoueur1")
+		var forcemult=5
+		var lookTarget = "../Ballon";
+		var direction = get_node(lookTarget).get_transform().origin
+		var global_direction = global_transform.basis.xform(direction).normalized()
+		Ballon.apply_impulse(Vector3(0,0,0), global_direction * forcemult)
+		print("tire effectué")
 
 func process_input():
 
@@ -99,12 +110,15 @@ func _input(event):
 func _on_Area_body_entered(body):
 	print("JoueurBallon")
 	if body.is_in_group("Ballon"):
+		Jai.play(0)
 		print("Ballon")
+		Ballon = body
 		SoundBallon.play(0)
-		if tir:
-			print("TireJoueur1")
-			var forcemult=25
-			var lookTarget = "../Ballon";
-			var direction = get_node(lookTarget).get_transform().origin.normalized()
-			var global_direction = global_transform.basis.xform(direction)
-			body.apply_impulse(Vector3(0,0,0), global_direction * forcemult)
+		tirePossible = true
+		var timer = Timer.new()
+		timer.set_wait_time(2)
+		timer.set_one_shot(true)
+		self.add_child(timer)
+		timer.start()
+		yield(timer, "timeout")
+		tirePossible = false

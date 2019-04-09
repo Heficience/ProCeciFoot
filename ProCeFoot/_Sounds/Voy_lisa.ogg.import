@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Voy_lisa.ogg-7199c183798f04c67f1b5dec1a33103a.oggstr"
+
+[deps]
+
+source_file="res://_Sounds/Voy_lisa.ogg"
+dest_files=[ "res://.import/Voy_lisa.ogg-7199c183798f04c67f1b5dec1a33103a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

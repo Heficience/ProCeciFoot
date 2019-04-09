@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Jai_paul.ogg-011d69f5cd099d767326ee0f3185dff0.oggstr"
+
+[deps]
+
+source_file="res://_Sounds/Jai_paul.ogg"
+dest_files=[ "res://.import/Jai_paul.ogg-011d69f5cd099d767326ee0f3185dff0.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
