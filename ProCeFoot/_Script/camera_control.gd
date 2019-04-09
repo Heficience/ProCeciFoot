@@ -18,6 +18,8 @@ var rotation_helper
 var MAX_SPEED = 15
 var MOUSE_SENSITIVITY = .5
 
+var tir = false
+
 onready var SoundBallon = get_node("/root/Spatial/Ballon/AudioStreamPlayer3D")
 
 func _ready():
@@ -48,6 +50,11 @@ func process_input():
 		input_movement_vector.x -= 1
 	if Input.is_action_pressed("Aller a droite"):
 		input_movement_vector.x = 1
+	if Input.is_action_pressed("Espace"):
+		tir = true
+		print("tir is true")
+	else:
+		tir = false
 
 	input_movement_vector = input_movement_vector.normalized()
 
@@ -90,7 +97,14 @@ func _input(event):
 
 
 func _on_Area_body_entered(body):
-	print("collision")
+	print("JoueurBallon")
 	if body.is_in_group("Ballon"):
 		print("Ballon")
 		SoundBallon.play(0)
+		if tir:
+			print("TireJoueur1")
+			var forcemult=25
+			var lookTarget = "../Ballon";
+			var direction = get_node(lookTarget).get_transform().origin.normalized()
+			var global_direction = global_transform.basis.xform(direction)
+			body.apply_impulse(Vector3(0,0,0), global_direction * forcemult)
