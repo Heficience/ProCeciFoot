@@ -35,15 +35,15 @@ func process_movement(delta):
 	if get_transform().origin.x < -12.9:
 		vel.x = 0.5
 	if get_transform().origin.z < -39.2:
-		vel.z = -2
+		vel.z = 2
 	if get_transform().origin.z > -28.3:
-		vel.z = 0.5
+		vel.z = -0.5
 	vel.y = 0
 	var global_vel = global_transform.basis.xform(vel).normalized()
 	global_vel.y = 0
 	global_vel *= MAX_SPEED
 
-	global_vel = move_and_slide(global_vel,Vector3(0,1,0), 0.05, 4, deg2rad(MAX_SLOPE_ANGLE))
+	global_vel = move_and_slide(-global_vel,Vector3(0,1,0), 0.05, 4, deg2rad(MAX_SLOPE_ANGLE))
 
 func _on_Area_body_entered(body):
 	if body.is_in_group("Ballon"):

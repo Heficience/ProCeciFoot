@@ -716,7 +716,6 @@ transform = Transform( 0.44, 0, 0, 0, 0.44, 0, 0, 0, 0.44, 0, 0, 0 )
 shape = SubResource( 20 )
 
 [node name="GuideEquipe1" type="Spatial" parent="."]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.986587, 2.56896, 43.8864 )
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="GuideEquipe1"]
@@ -725,7 +724,6 @@ autoplay = true
 max_distance = 50.0
 
 [node name="GuideEquipe2" type="Spatial" parent="."]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.986587, 2.56896, -43.9207 )
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="GuideEquipe2"]
