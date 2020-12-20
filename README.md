@@ -1,5 +1,5 @@
 # ProCeciFoot   
-![Icon](https://procecifoot/raw/master/ProCeFoot/icon.png?inline=false)
+![Icon](https://github.com/handyopensource/procecifoot/raw/master/ProCeFoot/icon.png?inline=false)
 **__ProCeciFoot__** ou **__ProBlindSoccer__**  
 **Le Jeu de CeciFoot, le jeu de football adapté au mal voyant**  
 ![Couverture](https://github.com/handyopensource/procecifoot/raw/master/ProCeFoot/_Images/SplashScreen.png)
