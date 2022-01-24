@@ -15,7 +15,7 @@ func _ready():
 	set_process(true)
 
 func _physics_process(delta):
-    process_movement(delta)
+	process_movement(delta)
 
 func process_movement(delta):
 	
@@ -45,6 +45,6 @@ func process_movement(delta):
 
 	global_vel = move_and_slide(-global_vel,Vector3(0,1,0), 0.05, 4, deg2rad(MAX_SLOPE_ANGLE))
 
-func _on_Area_body_entered(body):
+func _on_body_entered(body:Node):
 	if body.is_in_group("Ballon"):
 		body.apply_impulse(Vector3(0, 0, 0),Vector3(0,10,50))

@@ -46,8 +46,8 @@ func _physics_process(delta):
 
 func process_input():
 
-    # ----------------------------------
-    # Walking
+	# ----------------------------------
+	# Walking
 	dir = Vector3()
 	var cam_xform = camera.get_global_transform()
 
@@ -107,7 +107,7 @@ func _input(event):
 		rotation_helper.rotate(Vector3 (1,0,0), camRotat)
 
 
-func _on_Area_body_entered(body):
+func _on_body_entered(body:Node):
 	print("JoueurBallon")
 	if body.is_in_group("Ballon"):
 		Jai.play(0)

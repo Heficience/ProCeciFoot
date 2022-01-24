@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://_Images/Filet.png" type="Texture" id=1]
 [ext_resource path="res://_Sounds/Goal.ogg" type="AudioStream" id=2]
@@ -85,10 +85,20 @@ surfaces/0 = {
 [sub_resource type="SpatialMaterial" id=9]
 albedo_color = Color( 0.239216, 0.498039, 0.34902, 1 )
 
+[sub_resource type="BoxShape" id=23]
+extents = Vector3( 8.02908, 8.87349, 1.87759 )
+
 [sub_resource type="ConcavePolygonShape" id=10]
 data = PoolVector3Array( 4.6985, -32.5779, 37.7821, 4.6985, -30.4362, 37.7821, -0.5315, -30.4362, 37.7821, -0.5315, -32.5779, 37.7821, -0.5315, -30.4362, 37.7821, -0.5315, -30.4362, 34.3744, -0.5315, -30.4362, 37.7821, 4.6985, -30.4362, 37.7821, 4.6985, -30.4362, 34.3744, 4.6985, -32.5779, -38.7151, 4.6985, -30.4362, -38.7151, 4.6985, -30.4362, -35.3589, -0.5315, -32.5779, -38.7151, -0.5315, -30.4362, -38.7151, 4.6985, -30.4362, -38.7151, 19.5169, -32.5779, -35.3589, 19.5169, -30.3584, -35.3589, 19.5169, -30.3584, 34.3744, 19.5169, -30.3584, 34.3744, -15.3498, -30.3584, 34.3744, -0.5315, -30.4362, 34.3744, -15.3498, -32.5779, 34.3744, -15.3498, -30.3584, 34.3744, -15.3498, -30.3584, -35.3589, -15.3498, -30.3584, -35.3589, 19.5169, -30.3584, -35.3589, 4.6985, -30.4362, -35.3589, -15.3498, -30.3584, 34.3744, 19.5169, -30.3584, 34.3744, 19.5169, -30.3584, -35.3589, -16.2106, -30.2132, 39.0026, -16.2106, -32.5779, 39.0026, -16.2106, -32.5779, -39.1753, -16.2106, -30.2132, -39.1753, -16.2106, -32.5779, -39.1753, 20.3472, -32.5779, -39.1753, 20.3472, -30.2132, -39.1753, 20.3472, -32.5779, -39.1753, 20.3472, -32.5779, 39.0026, 20.3472, -30.2132, 39.0026, 20.3472, -32.5779, 39.0026, -16.2106, -32.5779, 39.0026, -0.5315, -32.5779, -38.7151, 20.3472, -32.5779, -39.1753, -16.2106, -32.5779, -39.1753, -16.2106, -30.2132, -39.1753, 20.3472, -30.2132, -39.1753, 20.3472, -30.2132, 39.0026, -0.5315, -32.5779, 37.7821, -16.2106, -32.5779, 39.0026, 20.3472, -32.5779, 39.0026, -0.5315, -30.4362, -38.7151, -0.5315, -32.5779, -38.7151, -0.5315, -32.5779, -35.3589, -0.5315, -30.4362, -38.7151, -0.5315, -30.4362, -35.3589, 4.6985, -30.4362, -35.3589, 4.6985, -32.5779, 37.7821, 4.6985, -32.5779, 34.3744, 4.6985, -30.4362, 34.3744, 4.6985, -32.5779, 37.7821, -0.5315, -30.4362, 37.7821, -0.5315, -32.5779, 37.7821, -0.5315, -32.5779, 37.7821, -0.5315, -30.4362, 34.3744, -0.5315, -32.5779, 34.3744, -0.5315, -30.4362, 37.7821, 4.6985, -30.4362, 34.3744, -0.5315, -30.4362, 34.3744, 4.6985, -32.5779, -38.7151, 4.6985, -30.4362, -35.3589, 4.6985, -32.5779, -35.3589, -0.5315, -32.5779, -38.7151, 4.6985, -30.4362, -38.7151, 4.6985, -32.5779, -38.7151, 19.5169, -32.5779, -35.3589, 19.5169, -30.3584, 34.3744, 19.5169, -32.5779, 34.3744, 19.5169, -30.3584, 34.3744, 4.6985, -30.4362, 34.3744, 19.5169, -32.5779, 34.3744, 19.5169, -32.5779, 34.3744, 4.6985, -30.4362, 34.3744, 4.6985, -32.5779, 34.3744, -0.5315, -32.5779, 34.3744, -0.5315, -30.4362, 34.3744, -15.3498, -32.5779, 34.3744, -15.3498, -32.5779, 34.3744, -0.5315, -30.4362, 34.3744, -15.3498, -30.3584, 34.3744, 19.5169, -30.3584, 34.3744, -0.5315, -30.4362, 34.3744, 4.6985, -30.4362, 34.3744, -15.3498, -32.5779, 34.3744, -15.3498, -30.3584, -35.3589, -15.3498, -32.5779, -35.3589, -15.3498, -30.3584, -35.3589, -0.5315, -30.4362, -35.3589, -15.3498, -32.5779, -35.3589, -15.3498, -32.5779, -35.3589, -0.5315, -30.4362, -35.3589, -0.5315, -32.5779, -35.3589, 4.6985, -32.5779, -35.3589, 4.6985, -30.4362, -35.3589, 19.5169, -32.5779, -35.3589, 19.5169, -32.5779, -35.3589, 4.6985, -30.4362, -35.3589, 19.5169, -30.3584, -35.3589, -15.3498, -30.3584, -35.3589, 4.6985, -30.4362, -35.3589, -0.5315, -30.4362, -35.3589, -15.3498, -30.3584, 34.3744, 19.5169, -30.3584, -35.3589, -15.3498, -30.3584, -35.3589, -16.2106, -30.2132, 39.0026, -16.2106, -32.5779, -39.1753, -16.2106, -30.2132, -39.1753, -16.2106, -30.2132, -39.1753, 20.3472, -32.5779, -39.1753, 20.3472, -30.2132, -39.1753, 20.3472, -30.2132, -39.1753, 20.3472, -32.5779, 39.0026, 20.3472, -30.2132, 39.0026, 20.3472, -30.2132, 39.0026, -16.2106, -32.5779, 39.0026, -16.2106, -30.2132, 39.0026, 20.3472, -32.5779, -39.1753, 19.5169, -32.5779, 34.3744, 20.3472, -32.5779, 39.0026, 19.5169, -32.5779, -35.3589, 4.6985, -32.5779, -38.7151, 4.6985, -32.5779, -35.3589, 20.3472, -32.5779, -39.1753, 19.5169, -32.5779, -35.3589, 19.5169, -32.5779, 34.3744, -0.5315, -32.5779, -35.3589, -0.5315, -32.5779, -38.7151, -15.3498, -32.5779, -35.3589, -15.3498, -32.5779, -35.3589, -0.5315, -32.5779, -38.7151, -16.2106, -32.5779, -39.1753, 20.3472, -32.5779, -39.1753, 4.6985, -32.5779, -38.7151, 19.5169, -32.5779, -35.3589, 4.6985, -32.5779, -38.7151, 20.3472, -32.5779, -39.1753, -0.5315, -32.5779, -38.7151, -16.2106, -30.2132, -39.1753, 20.3472, -30.2132, 39.0026, -16.2106, -30.2132, 39.0026, -16.2106, -32.5779, -39.1753, -15.3498, -32.5779, 34.3744, -15.3498, -32.5779, -35.3589, -15.3498, -32.5779, 34.3744, -0.5315, -32.5779, 37.7821, -0.5315, -32.5779, 34.3744, 4.6985, -32.5779, 37.7821, 19.5169, -32.5779, 34.3744, 4.6985, -32.5779, 34.3744, 4.6985, -32.5779, 37.7821, 20.3472, -32.5779, 39.0026, 19.5169, -32.5779, 34.3744, -16.2106, -32.5779, 39.0026, -15.3498, -32.5779, 34.3744, -16.2106, -32.5779, -39.1753, -0.5315, -32.5779, 37.7821, 20.3472, -32.5779, 39.0026, 4.6985, -32.5779, 37.7821, -16.2106, -32.5779, 39.0026, -0.5315, -32.5779, 37.7821, -15.3498, -32.5779, 34.3744, -0.5315, -30.4362, -38.7151, -0.5315, -32.5779, -35.3589, -0.5315, -30.4362, -35.3589, -0.5315, -30.4362, -38.7151, 4.6985, -30.4362, -35.3589, 4.6985, -30.4362, -38.7151, 4.6985, -32.5779, 37.7821, 4.6985, -30.4362, 34.3744, 4.6985, -30.4362, 37.7821 )
 
 [sub_resource type="BoxShape" id=11]
+extents = Vector3( 1, 7.19087, 1 )
+
+[sub_resource type="BoxShape" id=24]
+extents = Vector3( 16.3445, 1, 40.3399 )
+
+[sub_resource type="BoxShape" id=25]
+extents = Vector3( 1, 11.7987, 43.5249 )
 
 [sub_resource type="ArrayMesh" id=12]
 surfaces/0 = {
@@ -165,57 +175,39 @@ params_cull_mode = 2
 [node name="Terrain de CeciFoot" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.937, 0.118785, 0.056 )
 
-[node name="Enbut1" type="MeshInstance" parent="Terrain de CeciFoot" groups=[
-"Enbut1",
-]]
-editor/display_folded = true
+[node name="Enbut1" type="MeshInstance" parent="Terrain de CeciFoot" groups=["Enbut1"]]
 transform = Transform( 2.99, 0, 0, 0, 1.99, 0, 0, 0, 1.99, 0, 2.71488, 41.8503 )
 mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Terrain de CeciFoot/Enbut1" groups=[
-"Enbut1",
-]]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Terrain de CeciFoot/Enbut1" groups=["Enbut1"]]
 stream = ExtResource( 2 )
 volume_db = -18.0
 
-[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Enbut1" groups=[
-"Enbut1",
-]]
+[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Enbut1" groups=["Enbut1"]]
 transform = Transform( 1, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, 0, 0, 0.186869 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=["Enbut1"]]
 transform = Transform( 1, 0, 0, 0, 0.04, 0, 0, 0, 0.999999, 0, -1.0249, 0 )
 shape = SubResource( 3 )
 
-[node name="CollisionShape2" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape2" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.999999, 0, 0, 0, 0.04, 0, 0, 0, 0.999999, 0, 0.994585, 0 )
 shape = SubResource( 3 )
 
-[node name="CollisionShape3" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape3" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=["Enbut1"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.04, 0, 0, 0.966694 )
 shape = SubResource( 4 )
 
-[node name="CollisionShape4" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape4" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.04, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, -0.980554, 0, 0 )
 shape = SubResource( 5 )
 
-[node name="CollisionShape5" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape5" type="CollisionShape" parent="Terrain de CeciFoot/Enbut1/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.04, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, 1.06419, 0, 0 )
 shape = SubResource( 5 )
 
 [node name="Cage de But" type="Spatial" parent="Terrain de CeciFoot/Enbut1"]
-editor/display_folded = true
 transform = Transform( 0.334448, 0, 0, 0, 0.502512, 0, 0, 0, 0.502512, 0.0085105, -1.11674, -42.5467 )
 
 [node name="Cylinder" type="MeshInstance" parent="Terrain de CeciFoot/Enbut1/Cage de But"]
@@ -230,21 +222,18 @@ shape = SubResource( 7 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Terrain de CeciFoot/Enbut1/Cage de But"]
 
-[node name="Terrain" type="MeshInstance" parent="Terrain de CeciFoot" groups=[
-"Terrain",
-]]
-editor/display_folded = true
+[node name="Terrain" type="MeshInstance" parent="Terrain de CeciFoot" groups=["Terrain"]]
 transform = Transform( -1.14723, 0, 0, 0, -1.14723, 0, 0, 0, -1.14723, 2.3903, -34.1728, -0.56473 )
 mesh = SubResource( 8 )
 material/0 = SubResource( 9 )
 
-[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Terrain" groups=[
-"Terrain",
-]]
+[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Terrain" groups=["Terrain"]]
 
-[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody" groups=[
-"Terrain",
-]]
+[node name="CollisionShape10" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01514, -37.8249, 34.9877 )
+shape = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody" groups=["Terrain"]]
 shape = SubResource( 10 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
@@ -263,52 +252,59 @@ shape = SubResource( 11 )
 transform = Transform( 0.707107, 0, -1.41421, 0, 1.5, 0, 0.707107, 0, 1.41421, -14.7993, -31.013, -34.6728 )
 shape = SubResource( 11 )
 
-[node name="Enbut2" type="MeshInstance" parent="Terrain de CeciFoot" groups=[
-"Enbut2",
-]]
-editor/display_folded = true
+[node name="CollisionShape6" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.74829, -42.388, -0.859935 )
+shape = SubResource( 24 )
+
+[node name="CollisionShape7" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5466, -39.0872, -37.3138 )
+shape = SubResource( 23 )
+
+[node name="CollisionShape8" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.07248, -38.8545, -37.3304 )
+shape = SubResource( 23 )
+
+[node name="CollisionShape9" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6039, -38.0576, 35.0043 )
+shape = SubResource( 23 )
+
+[node name="CollisionShape11" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2041, -35.2355, 0 )
+shape = SubResource( 25 )
+
+[node name="CollisionShape12" type="CollisionShape" parent="Terrain de CeciFoot/Terrain/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.0404, -40.6396, 1.54262 )
+shape = SubResource( 25 )
+
+[node name="Enbut2" type="MeshInstance" parent="Terrain de CeciFoot" groups=["Enbut2"]]
 transform = Transform( 2.99, 0, 0, 0, 1.99, 0, 0, 0, 1.99, 0, 2.65086, -41.9094 )
 mesh = SubResource( 12 )
 material/0 = SubResource( 13 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Terrain de CeciFoot/Enbut2" groups=[
-"Enbut2",
-]]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Terrain de CeciFoot/Enbut2" groups=["Enbut2"]]
 stream = ExtResource( 2 )
 volume_db = -18.0
 
-[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Enbut2" groups=[
-"Enbut1",
-]]
+[node name="StaticBody" type="StaticBody" parent="Terrain de CeciFoot/Enbut2" groups=["Enbut1"]]
 transform = Transform( -1.17458, 0, -7.97338e-08, 0, 0.999998, 0, 1.02685e-07, 0, -0.912049, 8.9407e-08, 0, -0.0493507 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=["Enbut1"]]
 transform = Transform( 1, 0, -7.10543e-15, 0, 0.04, 0, 1.42109e-14, 0, 0.999999, 0, -0.994273, 0 )
 shape = SubResource( 3 )
 
-[node name="CollisionShape2" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape2" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.999999, 0, 0, 0, 0.04, 0, 0, 0, 0.999999, 0, 0.994585, 0 )
 shape = SubResource( 3 )
 
-[node name="CollisionShape3" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape3" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=["Enbut1"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.04, 0, 0, 0.966694 )
 shape = SubResource( 4 )
 
-[node name="CollisionShape4" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape4" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.04, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, -0.980554, 0, 0 )
 shape = SubResource( 5 )
 
-[node name="CollisionShape5" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=[
-"Enbut1",
-]]
+[node name="CollisionShape5" type="CollisionShape" parent="Terrain de CeciFoot/Enbut2/StaticBody" groups=["Enbut1"]]
 transform = Transform( 0.04, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, 1.06419, 0, 0 )
 shape = SubResource( 5 )
 
@@ -327,54 +323,35 @@ shape = SubResource( 14 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Terrain de CeciFoot/Enbut2/Cage de But"]
 
-[node name="Joueur 1" type="KinematicBody" parent="." groups=[
-"Joueur1",
-]]
-editor/display_folded = true
+[node name="Joueur 1" type="KinematicBody" parent="." groups=["Joueur1"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.217193, 0 )
 script = ExtResource( 3 )
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 1" groups=[
-"Joueur1",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 1" groups=["Joueur1"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="Joueur 1" groups=[
-"Joueur1",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="Joueur 1" groups=["Joueur1"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="Joueur 1" groups=[
-"Joueur1",
-]]
+[node name="Area" type="Area" parent="Joueur 1" groups=["Joueur1"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 1/Area" groups=[
-"Joueur1",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 1/Area" groups=["Joueur1"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Joueur 1/Area" groups=[
-"Joueur1",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Joueur 1/Area" groups=["Joueur1"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="Joueur 1" groups=[
-"Joueur1",
-]]
+[node name="RotationHelper" type="Spatial" parent="Joueur 1" groups=["Joueur1"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="Camera" type="Camera" parent="Joueur 1/RotationHelper" groups=[
-"Joueur1",
-]]
+[node name="Camera" type="Camera" parent="Joueur 1/RotationHelper" groups=["Joueur1"]]
 transform = Transform( -1, 8.74228e-08, 2.5411e-21, 3.82137e-15, 4.37114e-08, -1, -8.74228e-08, -1, -4.37114e-08, 0, -6.55986e-08, -1.50072 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 1/RotationHelper" groups=[
-"Joueur1",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 1/RotationHelper" groups=["Joueur1"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725722, 0.0896341, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 4 )
@@ -387,65 +364,44 @@ stream = ExtResource( 5 )
 stream = ExtResource( 6 )
 autoplay = true
 
-[node name="Joueur 2" type="KinematicBody" parent="." groups=[
-"Joueur2",
-]]
-editor/display_folded = true
+[node name="Joueur 2" type="KinematicBody" parent="." groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.12753, 0.217193, 0 )
 script = ExtResource( 7 )
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 2" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="Joueur 2" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="Area" type="Area" parent="Joueur 2" groups=["Joueur2"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 2/Area" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 2/Area" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Joueur 2/Area" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Joueur 2/Area" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="RotationHelper" type="Spatial" parent="Joueur 2" groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 2/RotationHelper" groups=[
-"Joueur2",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 2/RotationHelper" groups=["Joueur2"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725722, 0.0896341, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 4 )
 
-[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 2" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 8 )
 unit_db = -0.4
 max_db = 0.0
 doppler_tracking = 2
 
-[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 2" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 2" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 9 )
 unit_db = -0.4
@@ -453,65 +409,44 @@ max_db = 0.0
 autoplay = true
 doppler_tracking = 2
 
-[node name="Joueur 3" type="KinematicBody" parent="." groups=[
-"Joueur2",
-]]
-editor/display_folded = true
+[node name="Joueur 3" type="KinematicBody" parent="." groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.8037, 0.217193, 26.4927 )
 script = ExtResource( 7 )
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 3" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="Joueur 3" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="Area" type="Area" parent="Joueur 3" groups=["Joueur2"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 3/Area" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 3/Area" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Joueur 3/Area" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Joueur 3/Area" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="RotationHelper" type="Spatial" parent="Joueur 3" groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 3/RotationHelper" groups=[
-"Joueur2",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 3/RotationHelper" groups=["Joueur2"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725746, 0.0896339, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 4 )
 
-[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 3" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 10 )
 unit_db = -0.4
 max_db = 0.0
 doppler_tracking = 2
 
-[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 3" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 3" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 11 )
 unit_db = -0.4
@@ -519,65 +454,44 @@ max_db = 0.0
 autoplay = true
 doppler_tracking = 2
 
-[node name="Joueur 4" type="KinematicBody" parent="." groups=[
-"Joueur2",
-]]
-editor/display_folded = true
+[node name="Joueur 4" type="KinematicBody" parent="." groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.97136, 0.217193, 26.4927 )
 script = ExtResource( 7 )
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 4" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="Joueur 4" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="Area" type="Area" parent="Joueur 4" groups=["Joueur2"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="Joueur 4/Area" groups=[
-"Joueur2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="Joueur 4/Area" groups=["Joueur2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="Joueur 4/Area" groups=[
-"Joueur2",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Joueur 4/Area" groups=["Joueur2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="RotationHelper" type="Spatial" parent="Joueur 4" groups=["Joueur2"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 4/RotationHelper" groups=[
-"Joueur2",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="Joueur 4/RotationHelper" groups=["Joueur2"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725722, 0.0896341, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 4 )
 
-[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-1" type="AudioStreamPlayer3D" parent="Joueur 4" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 12 )
 unit_db = -0.4
 max_db = 0.0
 doppler_tracking = 2
 
-[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 4" groups=[
-"Joueur2",
-]]
+[node name="AudioStreamPlayer3D-2" type="AudioStreamPlayer3D" parent="Joueur 4" groups=["Joueur2"]]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 4.00527, 0 )
 stream = ExtResource( 13 )
 unit_db = -0.4
@@ -585,133 +499,88 @@ max_db = 0.0
 autoplay = true
 doppler_tracking = 2
 
-[node name="GardienEquipe1" type="KinematicBody" parent="." groups=[
-"Gardien2",
-]]
-editor/display_folded = true
+[node name="GardienEquipe1" type="KinematicBody" parent="." groups=["Gardien2"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.11847, 0.217193, -39.248 )
 script = ExtResource( 14 )
 
-[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe1" groups=[
-"Gardien2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe1" groups=["Gardien2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="GardienEquipe1" groups=[
-"Gardien2",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="GardienEquipe1" groups=["Gardien2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="GardienEquipe1" groups=[
-"Gardien2",
-]]
+[node name="Area" type="Area" parent="GardienEquipe1" groups=["Gardien2"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe1/Area" groups=[
-"Gardien2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe1/Area" groups=["Gardien2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="GardienEquipe1/Area" groups=[
-"Gardien2",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="GardienEquipe1/Area" groups=["Gardien2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="GardienEquipe1" groups=[
-"Gardien2",
-]]
+[node name="RotationHelper" type="Spatial" parent="GardienEquipe1" groups=["Gardien2"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="GardienEquipe1/RotationHelper" groups=[
-"Gardien2",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="GardienEquipe1/RotationHelper" groups=["Gardien2"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725722, 0.0896339, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 4 )
 
-[node name="GardienEquipe2" type="KinematicBody" parent="." groups=[
-"Gardien2",
-]]
-editor/display_folded = true
+[node name="GardienEquipe2" type="KinematicBody" parent="." groups=["Gardien2"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.118, 0.217, 39.2 )
 script = ExtResource( 15 )
 
-[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe2" groups=[
-"Gardien2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe2" groups=["Gardien2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape1" type="CollisionShape" parent="GardienEquipe2" groups=[
-"Gardien2",
-]]
+[node name="CollisionShape1" type="CollisionShape" parent="GardienEquipe2" groups=["Gardien2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="Area" type="Area" parent="GardienEquipe2" groups=[
-"Gardien2",
-]]
+[node name="Area" type="Area" parent="GardienEquipe2" groups=["Gardien2"]]
 
-[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe2/Area" groups=[
-"Gardien2",
-]]
+[node name="Joueur 1" type="CollisionShape" parent="GardienEquipe2/Area" groups=["Gardien2"]]
 transform = Transform( 0.6, 0, 0, 0, -2.18557e-08, -1, 0, 0.5, -4.37114e-08, 0, 2.5, 0 )
 shape = SubResource( 15 )
 
-[node name="CollisionShape" type="CollisionShape" parent="GardienEquipe2/Area" groups=[
-"Gardien2",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="GardienEquipe2/Area" groups=["Gardien2"]]
 transform = Transform( 0.5, 0, 0, 0, 0.35, 0, 0, 0, 0.275, 0, 0.970536, 0 )
 shape = SubResource( 16 )
 
-[node name="RotationHelper" type="Spatial" parent="GardienEquipe2" groups=[
-"Gardien2",
-]]
+[node name="RotationHelper" type="Spatial" parent="GardienEquipe2" groups=["Gardien2"]]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.5, 0 )
 
-[node name="JoueurEquipe1" type="MeshInstance" parent="GardienEquipe2/RotationHelper" groups=[
-"Gardien2",
-]]
+[node name="JoueurEquipe1" type="MeshInstance" parent="GardienEquipe2/RotationHelper" groups=["Gardien2"]]
 transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.00725722, 0.0896339, 1.8904 )
 mesh = SubResource( 17 )
 material/0 = ExtResource( 16 )
 
-[node name="Ballon" type="RigidBody" parent="." groups=[
-"Ballon",
-]]
-editor/display_folded = true
+[node name="Ballon" type="RigidBody" parent="." groups=["Ballon"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.56243, 1.33489, 26.3995 )
 linear_damp = 0.5
 angular_damp = 0.5
 script = ExtResource( 17 )
 
-[node name="Ballon" type="MeshInstance" parent="Ballon" groups=[
-"Ballon",
-]]
+[node name="Ballon" type="MeshInstance" parent="Ballon" groups=["Ballon"]]
 transform = Transform( 0.44, 0, 0, 0, 0.44, 0, 0, 0, 0.44, 0, 0, 0 )
 mesh = SubResource( 19 )
 material/0 = null
 
-[node name="CollisionShape" type="CollisionShape" parent="Ballon" groups=[
-"Ballon",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Ballon" groups=["Ballon"]]
 transform = Transform( 0.44, 0, 0, 0, 0.44, 0, 0, 0, 0.44, 0, 0, 0 )
 shape = SubResource( 20 )
 
-[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Ballon" groups=[
-"Ballon",
-]]
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Ballon" groups=["Ballon"]]
 stream = ExtResource( 19 )
 autoplay = true
 
 [node name="Area" type="Area" parent="Ballon"]
 
-[node name="CollisionShape" type="CollisionShape" parent="Ballon/Area" groups=[
-"Ballon",
-]]
+[node name="CollisionShape" type="CollisionShape" parent="Ballon/Area" groups=["Ballon"]]
 transform = Transform( 0.44, 0, 0, 0, 0.44, 0, 0, 0, 0.44, 0, 0, 0 )
 shape = SubResource( 20 )
 
@@ -741,14 +610,16 @@ transform = Transform( -270, 0, 0, 0, -270, 0, 0, 0, -270, 1.82707, 0.85, -0.697
 mesh = SubResource( 21 )
 material/0 = SubResource( 22 )
 
-[connection signal="body_entered" from="Joueur 1/Area" to="Joueur 1" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="Joueur 2/Area" to="Joueur 2" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="Joueur 3/Area" to="Joueur 3" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="Joueur 4/Area" to="Joueur 4" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="GardienEquipe1/Area" to="GardienEquipe1" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="GardienEquipe2/Area" to="GardienEquipe2" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="Ballon/Area" to="GardienEquipe1" method="_on_Area_body_entered" binds= [ false ]]
-[connection signal="body_entered" from="Ballon/Area" to="GardienEquipe2" method="_on_Area_body_entered" binds= [ false ]]
-[connection signal="body_entered" from="Ballon/Area" to="Joueur 3" method="_on_Area_body_entered" binds= [ false ]]
-[connection signal="body_entered" from="Ballon/Area" to="Ballon" method="_on_Area_body_entered"]
-[connection signal="body_entered" from="Ballon/Area" to="Joueur 2" method="_on_Area_body_entered" binds= [ false ]]
+[connection signal="body_entered" from="Joueur 1/Area" to="Joueur 1" method="_on_body_entered"]
+[connection signal="body_entered" from="Joueur 2/Area" to="Joueur 2" method="_on_body_entered"]
+[connection signal="body_entered" from="Joueur 3/Area" to="Joueur 3" method="_on_body_entered"]
+[connection signal="body_entered" from="Joueur 4/Area" to="Joueur 4" method="_on_body_entered"]
+[connection signal="body_entered" from="GardienEquipe1/Area" to="GardienEquipe1" method="_on_body_entered"]
+[connection signal="body_entered" from="GardienEquipe2/Area" to="GardienEquipe2" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="Joueur 1" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="Joueur 2" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="Joueur 3" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="Joueur 4" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="GardienEquipe1" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="GardienEquipe2" method="_on_body_entered"]
+[connection signal="body_entered" from="Ballon/Area" to="Ballon" method="_on_body_entered"]
